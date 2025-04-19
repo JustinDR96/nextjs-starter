@@ -1,0 +1,8 @@
+@use "../../../styles/variables/theme.scss" as *;
+
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  color: $text-color;
+}

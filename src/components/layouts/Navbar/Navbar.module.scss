@@ -1,0 +1,28 @@
+@use "../../../styles/variables/theme.scss" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: $primary-color;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
